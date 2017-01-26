@@ -41,8 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solution125.cs" />
     <Compile Include="Solution126.cs" />
     <Compile Include="Solution166.cs" />
+    <Compile Include="Solution198.cs" />
     <Compile Include="Solution216.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
