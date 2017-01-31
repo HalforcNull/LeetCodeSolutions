@@ -54,8 +54,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Solution166Tests.cs" />
     <Compile Include="Solution169Tests.cs" />
+    <Compile Include="Solution200Tests.cs" />
     <Compile Include="Solution216Tests.cs" />
     <Compile Include="Solution241Tests.cs" />
+    <Compile Include="Solution273Tests.cs" />
     <Compile Include="Solution30Tests.cs" />
     <Compile Include="Solution402Tests.cs" />
     <Compile Include="Solution41Tests.cs" />

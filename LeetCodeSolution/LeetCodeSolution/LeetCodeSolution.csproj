@@ -41,26 +41,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListNode.cs" />
+    <Compile Include="RandomListNode.cs" />
+    <Compile Include="Solution.cs" />
     <Compile Include="Solution125.cs" />
     <Compile Include="Solution126.cs" />
+    <Compile Include="Solution138.cs" />
     <Compile Include="Solution166.cs" />
+    <Compile Include="Solution171.cs" />
     <Compile Include="Solution198.cs" />
+    <Compile Include="Solution200.cs" />
+    <Compile Include="Solution206.cs" />
+    <Compile Include="Solution21.cs" />
     <Compile Include="Solution216.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Solution169.cs" />
     <Compile Include="Solution215.cs" />
     <Compile Include="Solution230.cs" />
+    <Compile Include="Solution235.cs" />
+    <Compile Include="Solution236.cs" />
     <Compile Include="Solution241.cs" />
     <Compile Include="Solution264.cs" />
+    <Compile Include="Solution268.cs" />
+    <Compile Include="Solution273.cs" />
     <Compile Include="Solution30.cs" />
+    <Compile Include="Solution315.cs" />
     <Compile Include="Solution402.cs" />
     <Compile Include="Solution41.cs" />
+    <Compile Include="Solution419.cs" />
     <Compile Include="Solution436.cs" />
     <Compile Include="Solution442.cs" />
     <Compile Include="Solution468.cs" />
+    <Compile Include="Solution48.cs" />
+    <Compile Include="Solution54.cs" />
     <Compile Include="Solution6.cs" />
     <Compile Include="Solution65.cs" />
+    <Compile Include="Solution76.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Solution175.sql" />
