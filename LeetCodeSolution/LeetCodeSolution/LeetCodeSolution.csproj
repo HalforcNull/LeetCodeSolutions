@@ -78,6 +78,7 @@
     <Compile Include="Solution6.cs" />
     <Compile Include="Solution65.cs" />
     <Compile Include="Solution76.cs" />
+    <Compile Include="Solution88.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Solution175.sql" />
