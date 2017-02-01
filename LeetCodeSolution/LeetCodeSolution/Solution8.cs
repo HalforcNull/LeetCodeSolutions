@@ -7,6 +7,12 @@ namespace LeetCodeSolution
 {
     public class Solution8
     {
+        /// <summary>
+        /// If you follow the hint. You will be miss lead.
+        /// Test case requires more than a 'atoi'
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
         public int MyAtoi(string str)
         {
             int result;
