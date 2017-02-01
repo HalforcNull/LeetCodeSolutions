@@ -44,6 +44,7 @@
     <Compile Include="ListNode.cs" />
     <Compile Include="RandomListNode.cs" />
     <Compile Include="Solution.cs" />
+    <Compile Include="Solution1.cs" />
     <Compile Include="Solution125.cs" />
     <Compile Include="Solution126.cs" />
     <Compile Include="Solution138.cs" />
