@@ -84,13 +84,13 @@ namespace LeetCodeSolution
 
 
 
-    class possibleSolution
+    public class possibleSolution
     {
         public int LowP { get; private set; }
         public int LowI { get; private set; }
 
-        private int HighP { get; set; }
-        private int HighI { get; set; }
+        public int HighP { get; private set; }
+        public int HighI { get; private set; }
 
         public int GetProfit()
         {
