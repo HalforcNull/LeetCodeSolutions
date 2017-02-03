@@ -100,6 +100,7 @@
     <Compile Include="Solution30.cs" />
     <Compile Include="Solution315.cs" />
     <Compile Include="Solution33.cs" />
+    <Compile Include="Solution365.cs" />
     <Compile Include="Solution387.cs" />
     <Compile Include="Solution402.cs" />
     <Compile Include="Solution41.cs" />
