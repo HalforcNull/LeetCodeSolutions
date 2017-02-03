@@ -49,6 +49,7 @@
     <Compile Include="Solution101.cs" />
     <Compile Include="Solution102.cs" />
     <Compile Include="Solution103.cs" />
+    <Compile Include="Solution106.cs" />
     <Compile Include="Solution112.cs" />
     <Compile Include="Solution116.cs" />
     <Compile Include="Solution121.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Solution98.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Solution106.js" />
     <Content Include="Solution175.sql" />
     <Content Include="Solution183.sql" />
     <Content Include="Solution65.c" />
