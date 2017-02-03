@@ -73,6 +73,7 @@
     <Compile Include="Solution6Tests.cs" />
     <Compile Include="Solution75Tests.cs" />
     <Compile Include="Solution79Tests.cs" />
+    <Compile Include="Solution91Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LeetCodeSolution\LeetCodeSolution.csproj">
