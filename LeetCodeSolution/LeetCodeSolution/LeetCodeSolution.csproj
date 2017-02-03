@@ -122,6 +122,7 @@
     <Compile Include="Solution8.cs" />
     <Compile Include="Solution88.cs" />
     <Compile Include="Solution91.cs" />
+    <Compile Include="Solution94.cs" />
     <Compile Include="Solution98.cs" />
   </ItemGroup>
   <ItemGroup>
