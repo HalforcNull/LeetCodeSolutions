@@ -112,6 +112,7 @@
     <Compile Include="Solution445.cs" />
     <Compile Include="Solution46.cs" />
     <Compile Include="Solution468.cs" />
+    <Compile Include="Solution47.cs" />
     <Compile Include="Solution48.cs" />
     <Compile Include="Solution5.cs" />
     <Compile Include="Solution53.cs" />

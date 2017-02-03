@@ -160,5 +160,55 @@ namespace LeetCodeSolution
         }
 
         #endregion
+
+        #region Permutation with Duplicate elements
+        public IList<IList<int>> PermuteUnique(int[] nums)
+        {
+            Dictionary<int, int> numCount = new Dictionary<int, int>();
+            foreach(int c in nums)
+            {
+                if(numCount.ContainsKey(c))
+                {
+                    numCount[c]++;
+                }
+                else
+                {
+                    numCount.Add(c, 1);
+                }
+            }
+
+            return PermuteUniqueSub(numCount);
+        }
+
+        private IList<IList<int>> PermuteUniqueSub(Dictionary<int, int> numCount)
+        {
+            List<IList<int>> result = new List<IList<int>>();
+            foreach(int k in numCount.Keys)
+            {
+                if(numCount[k] == 0)
+                { continue; }
+
+                Dictionary<int, int> newNumCount = new Dictionary<int, int>(numCount);
+                newNumCount[k]--;
+                IList<IList<int>> current = PermuteUniqueSub(newNumCount);
+
+                if(current.Count == 0)
+                {
+                    List<int> newEnd = new List<int>();
+                    newEnd.Add(k);
+                    result.Add(newEnd);
+                    continue;
+                }
+
+                foreach(IList<int> l in current)
+                {
+                    l.Insert(0, k);
+                    result.Add(l);
+                }
+            }
+            return result;
+        }
+        #endregion
+
     }
 }
