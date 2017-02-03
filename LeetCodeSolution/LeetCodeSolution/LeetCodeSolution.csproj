@@ -117,6 +117,7 @@
     <Compile Include="Solution73.cs" />
     <Compile Include="Solution75.cs" />
     <Compile Include="Solution76.cs" />
+    <Compile Include="Solution79.cs" />
     <Compile Include="Solution8.cs" />
     <Compile Include="Solution88.cs" />
     <Compile Include="Solution98.cs" />
