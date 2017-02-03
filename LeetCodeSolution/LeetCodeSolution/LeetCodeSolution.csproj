@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommonSolutions.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="QuestionDefinedStructures.cs" />
     <Compile Include="RandomListNode.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Solution13.cs" />
     <Compile Include="Solution138.cs" />
     <Compile Include="Solution141.cs" />
+    <Compile Include="Solution15.cs" />
     <Compile Include="Solution151.cs" />
     <Compile Include="Solution160.cs" />
     <Compile Include="Solution165.cs" />
