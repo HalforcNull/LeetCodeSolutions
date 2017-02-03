@@ -12,4 +12,5 @@ namespace LeetCodeSolution
             CommonSolutions s = new CommonSolutions();
             return s.PermuteUnique(nums);
         }
+    }
 }

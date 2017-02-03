@@ -79,6 +79,7 @@
     <Compile Include="Solution206.cs" />
     <Compile Include="Solution208.cs" />
     <Compile Include="Solution21.cs" />
+    <Compile Include="Solution213.cs" />
     <Compile Include="Solution216.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
