@@ -130,5 +130,35 @@ namespace LeetCodeSolution
             return storeIndex;
         }
         #endregion
+
+        #region Permutations
+        public IList<IList<int>> Permute(int[] nums)
+        {
+            List<IList<int>> result = new List<IList<int>>();
+            if (nums.Length == 1)
+            {
+                List<int> r = new List<int>();
+                r.Add(nums[0]);
+                result.Add(r);
+                return result;
+            }
+
+            foreach (int n in nums)
+            {
+                List<int> newList = nums.ToList();
+                newList.Remove(n);
+                IList<IList<int>> currentResult = Permute(newList.ToArray());
+
+                foreach(IList<int> r in currentResult)
+                {
+                    r.Insert(0, n);
+                    result.Add(r);
+                }
+            }
+
+            return result;
+        }
+
+        #endregion
     }
 }
