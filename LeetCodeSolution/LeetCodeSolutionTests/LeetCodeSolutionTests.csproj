@@ -73,6 +73,7 @@
     <Compile Include="Solution41Tests.cs" />
     <Compile Include="Solution436Tests.cs" />
     <Compile Include="Solution445Tests.cs" />
+    <Compile Include="Solution452Tests.cs" />
     <Compile Include="Solution6Tests.cs" />
     <Compile Include="Solution75Tests.cs" />
     <Compile Include="Solution79Tests.cs" />
